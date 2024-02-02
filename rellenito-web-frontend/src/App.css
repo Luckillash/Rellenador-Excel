@@ -1,0 +1,110 @@
+#root {
+
+	width: 100vw;
+
+	height: 100vh;
+
+	text-align: center;
+
+	display: flex;
+
+	align-items: center;
+
+	justify-content: center;
+
+}
+
+.Container {
+
+	display: flex;
+
+	flex-direction: column;
+
+	gap: 10px;
+
+	background-color: #5ab455;
+
+	border-radius: 10px;
+
+	padding: 60px;
+
+}
+
+.Section {
+
+	display: flex;
+
+	flex-direction: row;
+
+	gap: 10px;
+
+}
+
+.Button {
+
+	font-size: large;
+
+	padding: 10px;
+
+	background-color: #91da8d;
+
+	border-radius: 10px;
+
+	border: none;
+
+}
+
+.Button:hover {
+
+	background-color: #6cc067;
+
+}
+
+
+.Button:active {
+
+	background-color: rgb(81, 156, 77)
+
+}
+
+#form-file-upload {
+	height: 16rem;
+	width: 28rem;
+	max-width: 100%;
+	text-align: center;
+	position: relative;
+  }
+  
+  #input-file-upload {
+	display: none;
+  }
+  
+  #label-file-upload {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-width: 1px;
+	border-radius: 1rem;
+	border-style: dashed;
+	border-color: #171717;
+	background-color: #91da8d;
+	
+  }
+  
+  .upload-button {
+	cursor: pointer;
+	padding: 0.25rem;
+	font-size: 1rem;
+	border: none;
+	font-family: 'Oswald', sans-serif;
+	background-color: transparent;
+  }
+  
+  .upload-button:hover {
+	text-decoration-line: underline;
+  }
+
+  #label-file-upload.drag-active {
+	background-color: #ffffff;
+  }
